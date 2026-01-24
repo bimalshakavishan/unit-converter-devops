@@ -2,20 +2,23 @@
 <html>
 <head>
   <title>Unit Converter</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <h1>Unit Converter</h1>
+  <div class="container">
+    <h1>Unit Converter</h1>
 
-  <select id="type">
-    <option value="length">Meters to Centimeters</option>
-    <option value="weight">Kg to Grams</option>
-    <option value="temp">Celsius to Fahrenheit</option>
-  </select>
+    <select id="type">
+      <option value="length">Meters to Centimeters</option>
+      <option value="weight">Kg to Grams</option>
+      <option value="temp">Celsius to Fahrenheit</option>
+    </select>
 
-  <input type="number" id="value">
-  <button onclick="convert()">Convert</button>
+    <input type="number" id="value" placeholder="Enter value">
+    <button onclick="convert()">Convert</button>
 
-  <p id="result"></p>
+    <p id="result"></p>
+  </div>
 
   <script src="scripts/script.js"></script>
 </body>
