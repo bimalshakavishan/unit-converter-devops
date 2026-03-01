@@ -1,3 +1,13 @@
+## 🐳 Docker Support
+This project is fully Dockerized! You can easily run the Unit Converter application in a containerized environment using Docker Compose.
+
+### How to Run:
+1. Make sure you have **Docker** installed on your machine.
+2. Open your terminal in the project root folder.
+3. Run the following command:
+   ```bash
+   docker-compose up --build
+
 # Unit Converter DevOps
 CI/CD pipeline enabled 🚀
 
